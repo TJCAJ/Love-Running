@@ -325,8 +325,8 @@ main {
     width: 100%;
 }
 
-#benefits-physical<div,
-#benefits-mental<div {
+#benefits-physical>div,
+#benefits-mental>div {
     width: 75%;
 }
 
@@ -399,6 +399,8 @@ main {
         align-self: flex-start;
     }
 
-    #benefits-physical>div {
+    #benefits-physical > div {
         align-self: flex-end;
     }
+}
+}
